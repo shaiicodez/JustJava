@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">جافا للقهوة المختصة</string>
+
+    <!-- USERNAME [CHAR LIMIT=NONE] -->
+    <string name="enter_your_name">ادخل الأسم</string>
+
+    <!-- TOPPINGS [CHAR LIMIT=NONE] -->
+    <string name="toppings">إضافات</string>
+    <string name="whipped_cream">كريمة</string>
+    <string name="chocolate">صوص شوكولاتة</string>
+
+    <!-- QUANTITY [CHAR LIMIT=NONE] -->
+    <string name="quantity">الكمية</string>
+
+    <!-- ORDER -->
+    <string name="order">أطلب الآن</string>
+
+    <!-- Email activity: ORDER SUMMARY -->
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="email_thank_you">"شكرا لك! "</string>
+
+    <!-- Name for order summary. It will be shown in the format of "Name: Shaima" where Shaima is the
+            user name. [CHAR LIMIT=NONE] -->
+    <!-- Inside xliff tag we put the string that shouldn't be translated -->
+    <string name="email_name">الأسم: <xliff:g example="Shaima" id="name">%s</xliff:g></string>
+    <string name="email_add_whipped_cream">إضافة كريمة؟ <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+
+    <!--
+  Chocolate topping for the order summary. It will be shown in the format of
+  "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+-->
+    <string name="email_add_chocolate">إضافة صوص شوكولاتة؟ <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+
+    <!--
+     Quantity of coffee cups for the order summary. It will be shown in the format of
+     "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+   -->
+    <string name="email_quantity">الكمية: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+
+    <!--
+   Total price for the order summary. It will be shown in the format of
+   "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+ -->
+    <string name="email_total_tag">المجموع: <xliff:g example="SR.10" id="price">%s</xliff:g></string>
+</resources>

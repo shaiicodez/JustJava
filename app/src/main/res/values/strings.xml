@@ -1,0 +1,42 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name -->
+    <string name="app_name">Just Java</string>
+
+    <!-- USERNAME [CHAR LIMIT=NONE] -->
+    <string name="enter_your_name">Enter your name</string>
+
+    <!-- TOPPINGS [CHAR LIMIT=NONE] -->
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+
+    <!-- QUANTITY [CHAR LIMIT=NONE] -->
+    <string name="quantity">Quantity</string>
+    <string name="zero_quantity" translatable="false">0</string>
+    <string name="add" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+
+    <!-- ORDER -->
+    <string name="order">Order</string>
+
+    <!-- Email activity: ORDER SUMMARY -->
+    <string name="email_thank_you">Thank you!</string>
+
+    <!-- Name for order summary. It will be shown in the format of "Name: Shaima" where Shaima is the
+            user name. [CHAR LIMIT=NONE] -->
+    <!-- Inside xliff tag we put the string that shouldn't be translated -->
+    <string name="email_name">Name: <xliff:g id="name" example="Shaima">%s</xliff:g></string>
+    <string name="email_add_whipped_cream">Add Whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+    <!-- Chocolate topping for the order summary. It will be shown in the format of
+            "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE] -->
+    <string name="email_add_chocolate">Add Chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+
+    <string name="email_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+    <!--
+   Total price for the order summary. It will be shown in the format of
+   "Total: $10" where $10 is the price. [CHAR LIMIT=NONE] -->
+    <string name="email_total_tag">Total: <xliff:g id="price" example="SR.10">%s</xliff:g></string>
+</resources>
